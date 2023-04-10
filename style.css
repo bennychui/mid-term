@@ -16,7 +16,7 @@ body {
 header {
     height: auto;
     border-radius: 20px;
-    background-color: rgb(122, 120, 118);
+    background-color: rgb(180, 176, 172);
 }
 
 .nav-ul {
@@ -159,7 +159,7 @@ nav li:hover {
     width: 48%;
     overflow: hidden;
 
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 
 }
 
