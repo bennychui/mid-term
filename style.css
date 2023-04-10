@@ -1,0 +1,195 @@
+* {
+    /* font-family: font-family: 'Noto Serif TC', serif; */
+    font-family: "微軟正黑體", sans-serif;
+}
+
+body {
+    /* background-color: ; */
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 20px;
+    /* background-color: #c4dbeb76; */
+
+}
+
+/* nav開始 */
+header {
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(122, 120, 118);
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+
+
+
+nav li:hover {
+    background-color: #a7c9e0;
+    border-radius: 20px;
+    transform: scale(1.2)
+}
+
+/* nav結束 */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.about-me-img{
+    border-radius: 50%;
+}
+
+.about-me {
+    padding: 50px;
+    margin-top: 10px;
+    width: 25%;
+    position: relative;
+    justify-content: left;
+    background-color: beige;
+    border-radius: 20px;
+    font-size: 21px;
+
+}
+
+.about-me img {
+    width: 200px;
+    /* border-radius: 50%; */
+}
+
+.about-me img:hover {
+    transform: scale(1.2)
+}
+
+.right-column {
+    padding: 50px;
+    margin-top: 10px;
+    width: 62%;
+    position: relative;
+    background-color: rgba(198, 198, 135, 0.751);
+    border-radius: 20px;
+    font-size: 20px;
+
+
+}
+
+.motto {
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 1em;
+    /* font-weight: 400; */
+}
+
+.Program .bar {
+    width: 600px;
+    height: 15px;
+    border: solid 2pxp palevioletred;
+    border-radius: 5px;
+
+}
+
+.Program li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.value-c {
+    width: 60%;
+    animation: c 3s;
+}
+
+.value {
+    height: 100%;
+    width: 60%;
+    background-color: palevioletred;
+}
+
+.value.html {
+    width: 50%;
+    animation: html 3s;
+}
+
+.value.css {
+    width: 50%;
+    animation: css 3s;
+}
+
+.value.java {
+    width: 45%;
+    animation: c 3s;
+}
+
+.value.python {
+    width: 40%;
+    animation: python 3s;
+}
+
+.club {
+    font-size: 21px;
+}
+
+.club2 {
+    padding-left: 5px;
+}
+
+.club img {
+    border-radius: 20px;
+    width: 48%;
+    overflow: hidden;
+
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.club img:hover {
+    transform: scale(1.2)
+
+}
+
+.club ul li {
+    list-style-type: none;
+
+}
+
+.skills {
+    font-size: 21px;
+
+}
+
+.skills ul li {
+    list-style-type: none;
+
+}
+
+.contact{
+    margin-top: 100px;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.contact img{
+    height: 120px;
+    width: 120px;
+}
